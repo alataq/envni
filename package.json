@@ -1,0 +1,34 @@
+{
+  "name": "envni",
+  "version": "1.0.0",
+  "description": "A unified module and CLI for getting runtime and system information.",
+  "author": "Alataq",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "bin": {
+    "envni": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "pretest": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bun",
+    "nodejs",
+    "cli",
+    "system-info",
+    "runtime",
+    "utility"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.2.1",
+    "typescript": "^5.5.3"
+  }
+}
