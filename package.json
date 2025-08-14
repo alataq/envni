@@ -1,6 +1,6 @@
 {
   "name": "envni",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A unified module and CLI for getting runtime and system information.",
   "author": "Alataq",
   "license": "MIT",
